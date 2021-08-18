@@ -12,7 +12,7 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: center;"
-  src="https://subversive-eu.github.io/awesome-hugo-book/media/merakist-min.jpg" alt="Web SEO" /></kbd>
+  src="https://criminau.github.io/awesome-hugo-book/media/merakist-min.jpg" alt="Web SEO" /></kbd>
 </p>
 
 ### Objectif et Besoin
