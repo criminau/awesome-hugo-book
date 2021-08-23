@@ -85,9 +85,9 @@ Le plus important est d’avoir un objectif quantifiable et mesurable, le reste 
 - Préférez les petites images en taille (donc conservez la qualité)
 - Compressez vos images jpg ou jpeg vers les formats -> JPEG 2000, JPEG XR ou WEBP
 - Conserver uniquement le script js que vous utilisez
-- [Minifiez votre JS](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/footer.html)
+- [Minifiez votre JS](https://github.com/criminau/site/blob/master/themes/theme-1/layouts/partials/footer.html)
 - Conserver uniquement le css que vous utilisez
-- [Minifiez votre CSS](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/head.html)
+- [Minifiez votre CSS](https://github.com/criminau/site/blob/master/themes/theme-1/layouts/partials/head.html)
 - Minifiez votre html
 - Ayez un site adapté a toutes les plateformes
 - Evitez les redirections
@@ -140,7 +140,7 @@ Demandez vous ce qu’aime les gens, ce que viennent chercher les gens sur votre
 
 - Un rendu en recherche impeccable cf schema.org.
 - Le sitemap est très important, il est l’index du robot, il regroupe toutes les pages.
-- [sitemap.xml dans le dossier layouts](https://github.com/subversive-eu/site/blob/master/layouts/sitemap.xml).
+- [sitemap.xml dans le dossier layouts](https://github.com/criminau/site/blob/master/layouts/sitemap.xml).
 
 
 *Outils*
@@ -214,13 +214,13 @@ Il aime également le contenu frais. Aujourd’hui le monde va plus vite, a vous
   - [JSON-LD données](https://github.com/JayHoltslander/Structured-Data-JSON-LD)
 - [Twitter_Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards)
 - **[Meilleur Outil !](http://debug.iframely.com/)**
-- [Templates que j'utilise](https://github.com/subversive-eu/site/tree/master/themes/PaperMod/layouts/partials/templates)
-- [Les déployer depuis le partial head (dernières lignes)](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/head.html)
+- [Templates que j'utilise](https://github.com/criminau/site/tree/master/themes/theme-1/layouts/partials/templates)
+- [Les déployer depuis le partial head (dernières lignes)](https://github.com/criminau/site/blob/master/themes/theme-1/layouts/partials/head.html)
 PS: Ne pas oublier dans config.yml params:
 ```
 env: production
 ```
-- [Robots.txt](https://github.com/subversive-eu/site/blob/master/static/robots.txt)
+- [Robots.txt](https://github.com/criminau/site/blob/master/static/robots.txt)
 
 Ne pas utiliser ```<noscript>```, cela nuît au référencement.
 
@@ -234,7 +234,7 @@ Ne pas utiliser ```<noscript>```, cela nuît au référencement.
 *Shortcodes*
 
 - [Hugo shortcodes par parsiya](https://github.com/parsiya/Hugo-Shortcodes)
-- [les miens](https://github.com/subversive-eu/site/tree/master/layouts/shortcodes)
+- [les miens](https://github.com/criminau/site/tree/master/layouts/shortcodes)
 
 *Autres Outils*
 
@@ -249,7 +249,7 @@ Ne pas utiliser ```<noscript>```, cela nuît au référencement.
 
 - [Markdown Syntax Guide](https://sourceforge.net/p/hugo-generator/wiki/markdown_syntax/)
 - [Evernote-powered statically-generated blogs and websites](https://github.com/zzamboni/enwrite)
-- [Mon guide /outils Markdown](https://subversive.eu/articles/markdown-syntax-how-to-use-figure-with-html-css-and-tabs.html)
+- [Mon guide /outils Markdown](https://criminau.xyz/articles/markdown-syntax-how-to-use-figure-with-html-css-and-tabs.html)
 - [Syntaxe basique MArkdown](https://www.markdownguide.org/basic-syntax/)
 
 *Emoji* dans le fichier config.yml
@@ -265,7 +265,7 @@ Ne pas utiliser ```<noscript>```, cela nuît au référencement.
 - [Visual Captcha](https://visualcaptcha.net/)
 - [Invisible-recaptcha-validator / self-hosted](https://github.com/andrewrmn/invisible-recaptcha-validator)
 - [Staticman!](https://staticman.net/)
-- [Staticman tuto fr 2021](https://subversive.eu/articles/ecrire-des-commentaires-sur-un-site-statique-hugo-avec-staticman-et-heroku.html)
+- [Staticman tuto fr 2021](https://criminau.xyz/articles/ecrire-des-commentaires-sur-un-site-statique-hugo-avec-staticman-et-heroku.html)
 
 ### Meta Data
 
@@ -298,7 +298,7 @@ La personne ou le robot qui lit votre url doit comprendre ce dont la page parle.
 - [Google test robots.txt](https://support.google.com/webmasters/answer/6062598)
 - [HTML Ressources](https://htmlhead.dev/)
 - [Tuto hugo tags](https://www.skcript.com/svr/perfect-seo-meta-tags-with-hugo/)
-- [Exemple Head](https://github.com/subversive-eu/site/blob/master/themes/PaperMod/layouts/partials/head.html)
+- [Exemple Head](https://github.com/criminau/site/blob/master/themes/theme-1/layouts/partials/head.html)
 - [HTML Documentation](https://html.spec.whatwg.org/multipage/)
 
 ### Accessibilité
@@ -326,6 +326,7 @@ Très important pour le handicap, considérez que le robot est un handicapé qui
 - alt pour une image ex:
 ```
 alt="description de l'image"
+title="titre de l'image"
 ```
 - alt pour une vidéo
 ```
@@ -409,7 +410,7 @@ Tout ce qui ne rentre pas dans les autres catégories.
 - [Simpleicons](https://simpleicons.org/)
 - [Octicons](https://primer.style/octicons/)
 
-[*Cette merveilleuse photo*](https://subversive-eu.github.io/awesome-hugo-book/media/winter-photo.webp)
+[*Cette merveilleuse photo*](https://criminau.github.io/awesome-hugo-book/media/winter-photo.webp)
 
 *Vrac*
 
@@ -510,7 +511,7 @@ Celles publiques et pointilleuses.
 
 ### Project
 
-- Come from <https://subversive-eu.github.io/book-seo/>, it's in french, but using jekyll (hate it!) and a lot of errors and not full !
+- Come from <https://criminau.github.io/book-seo/>, it's in french, but using jekyll (hate it!) and a lot of errors and not full !
 - Just want a website bookmarks ! nothing more.
 - Do not think, join me, just to send a link, this can help.
 
