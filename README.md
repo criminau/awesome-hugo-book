@@ -355,6 +355,10 @@ Tout ce qui ne rentre pas dans les autres catégories.
 - [Make Perfect Readme](https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061)
 - [Simple Favicon Generator](https://freelogomake.com/favicon.html)
 
+*Site builder*
+
+- [Wowchemy](https://github.com/wowchemy/wowchemy-hugo-modules)
+
 *Outils Officiels Hugo*
 
 - [Developer Tools](https://gohugo.io/tools/)
