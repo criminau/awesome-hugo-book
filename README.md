@@ -125,6 +125,7 @@ Pour observer le résultat -> clic droit sur une page de votre site (local ou no
 - [Compress Img](https://compressjpeg.com/)
 - [Webp convertor](https://webp-converter.com/)
 - [Squoosh compressor](https://squoosh.app/)
+- [Avif.io](https://avif.io/)
 
 ### Architecture
 
