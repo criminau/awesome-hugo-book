@@ -6,13 +6,13 @@
 - [Anglais](#english) (french before)
 
 <p align="center">
-  <kbd><img style=" 
+  <kbd><img style="
   width: 100%;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;"
-  src="https://criminau.github.io/awesome-hugo-book/media/merakist-min.jpg" alt="Web SEO" /></kbd>
+  src="https://criminau.github.io/awesome-hugo-book/media/merakist-min.avif" alt="Web SEO" /></kbd>
 </p>
 
 ### Objectif et Besoin
@@ -24,8 +24,8 @@
 - Juste une page avec des favoris disponibles partout facile à interpréter.
 
 
-Table des matières | 
------------- | 
+Table des matières |
+------------ |
 [Introduction](#introduction) |
 [Performance](#performance) |
 [Architecture](#architecture) |
@@ -83,21 +83,21 @@ Le plus important est d’avoir un objectif quantifiable et mesurable, le reste 
 ### Performance
 
 - Préférez les petites images en taille (donc conservez la qualité)
-- Compressez vos images jpg ou jpeg vers les formats -> JPEG 2000, JPEG XR ou WEBP
+- Compressez vos images (png, jpg, JPEG 2000, JPEG XR ou WEBP) vers les formats -> HEIC -> .avif (pas encore supporter fin 2021 sur safari)
 - Conserver uniquement le script js que vous utilisez
 - [Minifiez votre JS](https://github.com/criminau/site/blob/master/themes/theme-1/layouts/partials/footer.html)
 - Conserver uniquement le css que vous utilisez
 - [Minifiez votre CSS](https://github.com/criminau/site/blob/master/themes/theme-1/layouts/partials/head.html)
-- Minifiez votre html
 - Ayez un site adapté a toutes les plateformes
 - Evitez les redirections
 - Détestez les icônes
+- Minifiez votre html
 
 ```
 Minifier votre HTML -> Dans le fichier config.yml ajouter :
 minify:
  minifyOutput: true
- 
+
 Pour observer le résultat -> clic droit sur une page de votre site (local ou non) afficher le code source.
 ```
 
@@ -387,7 +387,7 @@ Tout ce qui ne rentre pas dans les autres catégories.
 - [Resume A4](https://gitlab.com/mertbakir/resume-a4)
 - [Simple Resume](https://github.com/tylerjlawson/simple-resume)
 - [Editeur de contenu github a distance](https://prose.io/)
-- 
+-
 *Design kit*
 
 - [Material Design](https://material.io/)
